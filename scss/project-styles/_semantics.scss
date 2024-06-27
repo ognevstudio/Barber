@@ -1,0 +1,28 @@
+.container {
+	max-width: px($maxSW);
+	margin: 0px auto;
+	padding: px(0) px($g3);
+
+	@media (max-width: px($s3)) {
+		padding: px(0) px($g2);
+	}
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: nowrap;
+
+	padding: $g2 0;
+}
+
+.main {
+	padding-top: $g8;
+}
+
+section {
+	@include av('padding-top', $g6, $g5, $maxSW, $minSW);
+	@include av('padding-bottom', $g6, $g5, $maxSW, $minSW);
+}

@@ -1,0 +1,85 @@
+// ------------------------------
+
+// -- Title Font
+@import url('');
+$title-font-family: ;
+
+// -- Text Font
+@import url('');
+$text-font-family: ;
+
+// ------------------------------
+
+// -- Text Styles
+.h1 {
+	font-family: $title-font-family;
+	@include av('font-size', 64, 38, $maxWC, $minWC);
+	line-height: 120%;
+	letter-spacing: -2%;
+
+}
+
+.h2 {
+	font-family: $title-font-family;
+	@include av('font-size', 44, 32, $maxWC, $minWC);
+	line-height: 120%;
+	letter-spacing: -2%;
+
+}
+
+.h3 {
+	font-family: $title-font-family;
+	@include av('font-size', 36, 28, $maxWC, $minWC);
+	line-height: 120%;
+	letter-spacing: -1%;
+
+}
+
+.h4 {
+	font-family: $title-font-family;
+	@include av('font-size', 28, 24, $maxWC, $minWC);
+	line-height: 120%;
+	letter-spacing: 0%;
+
+}
+
+.h5 {
+	font-family: $title-font-family;
+	font-size: 22px;
+	line-height: 120%;
+	letter-spacing: 0%;
+
+}
+
+.text {
+	font-family: $text-font-family;
+	font-size: 17px;
+	line-height: 140%;
+	letter-spacing: 0%;
+
+}
+
+.bold-text {
+	font-family: $text-font-family;
+	font-size: 17px;
+	font-weight: 800;
+	line-height: 140%;
+	letter-spacing: 0%;
+
+}
+
+.small-text {
+	font-family: $text-font-family;
+	font-size: 12px;
+	line-height: 150%;
+	letter-spacing: 1%;
+
+}
+
+.btn-text {
+	font-family: $text-font-family;
+	font-size: 17px;
+	line-height: 140%;
+	letter-spacing: 0%;
+
+}
